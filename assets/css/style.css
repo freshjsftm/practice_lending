@@ -1,12 +1,13 @@
-/* font-family: 'Revalia', cursive;*/
+
 
 :root{
   --accent-color: #34547A;
-  --bg-color: #FCFDFD;
+  --bg-color: #e4e4e4;
   --text-color: #727272;
   font-size: 14px;
   font-family: 'Roboto', sans-serif;
 }
+
 
 @media screen and (min-width: 576px){
   :root{

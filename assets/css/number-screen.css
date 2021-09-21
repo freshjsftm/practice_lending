@@ -1,0 +1,8 @@
+.number-screen{
+  background-color: var(--accent-color);
+  color: var(--light-color);
+}
+.number-info{
+  display: flex;
+  flex-direction: column;
+}

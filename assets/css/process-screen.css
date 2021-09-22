@@ -1,0 +1,24 @@
+.process-screen {
+  background-color: var(--bg-color);
+  text-align: center;
+}
+.iframe-wrapper {
+  --width: calc(100% / var(--count-column) * 8);
+  --heigth: calc(var(--width) * 9 / 16);
+  width: var(--width);
+  padding-top: var(--heigth);
+  margin: 0 auto;
+  margin-top: 3rem;
+
+  position: relative;
+  overflow: hidden;
+}
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}

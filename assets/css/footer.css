@@ -1,0 +1,15 @@
+.footer {
+  padding: 3rem 12rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--accent-color);
+  color: var(--light-color);
+}
+.footer .name{
+   font-size: 1.2rem;
+}
+.footer .copyright{
+   padding-top: 1rem;
+   font-size: .8rem;
+}

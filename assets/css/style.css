@@ -1,5 +1,6 @@
 :root{
   --accent-color: #34547A;
+  --accent-color-rgb: 52,84,112;
   --bg-color: #e4e4e4;
   --text-color: #727272;
   --light-color: #fefefe;
@@ -45,7 +46,9 @@ html{
   white-space: nowrap;
   text-overflow: ellipsis;
 }
-
+.margin-center{
+  margin: 0 auto;
+}
 
 @media screen and (min-width: 576px){
   :root{

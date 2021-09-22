@@ -1,0 +1,29 @@
+.works-screen {
+  padding-top: 1rem;
+  display: flex;
+  flex-flow: row wrap;
+}
+.works-screen img {
+  width: 25vw;
+  height: 25vw;
+}
+.img-wrapper {
+  position: relative;
+  width: 25%;
+  overflow: hidden;
+}
+.img-wrapper::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+  background: rgba(var(--accent-color-rgb), 0.7) url(./../images/works-aye.png)
+    no-repeat center;
+  background-size: 30%;
+}
+.img-wrapper:hover::before {
+  opacity: 1;
+}

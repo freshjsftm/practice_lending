@@ -29,13 +29,12 @@ html {
 }
 
 .text-content {
-  margin: auto;
   color: var(--text-color);
   line-height: 26px;
 }
 
 .btn {
-  margin-top: 2rem;
+  margin-top: 2.5rem;
   padding: 1.5625rem 2.5rem;
 
   border: 0;
@@ -59,13 +58,19 @@ html {
   text-overflow: ellipsis;
 }
 
+.row-overflow {
+  max-height: calc(1.5rem * 3);
+  line-height: 1.5;
+
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
 @media screen and (min-width: 576px) {
   :root {
     font-size: 15px;
-  }
-
-  .text-content {
-    width: 400px;
   }
 }
 
@@ -80,7 +85,7 @@ html {
   }
 
   .text-content {
-    margin: 0;
+    width: 370px;
   }
 }
 @media screen and (min-width: 992px) {
@@ -88,6 +93,12 @@ html {
     font-size: 16px;
   }
 
+  .text-content {
+    width: 450px;
+  }
+}
+
+@media screen and (min-width: 1240px) {
   .text-content {
     width: 500px;
   }

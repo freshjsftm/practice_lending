@@ -1,21 +1,21 @@
-.number-screen{
+.number-screen {
   background-color: var(--accent-color);
   color: var(--light-color);
 }
-.center{
+.center {
   justify-content: center;
 }
-.flex.center{
-  margin-bottom: 2rem;
-}
-.number-image{
+.number-image {
   margin-right: 1rem;
 }
-.number-info{
+.number-info {
   display: flex;
   flex-direction: column;
 }
-.num{
-  font-size: 1.5rem;
+.num {
+  font-size: 1.3125rem;
   font-weight: 500;
+}
+.num.overflow {
+  padding-bottom: 0.5rem;
 }

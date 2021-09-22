@@ -1,0 +1,41 @@
+.form-screen{
+  background-color: var(--bg-color);
+}
+.question-job{
+
+}
+.register-form{
+  
+  /* min-width: 440px; */
+  
+}
+.name-form-wrapper{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+label{
+  
+}
+input, textarea{
+  padding: 1rem;
+  border: none;
+}
+textarea{
+  width: 100%;
+  resize: none;
+}
+/* input+input{
+  margin-left: 1rem;
+} */
+textarea{
+  
+}
+.form-btn{
+  display: block;
+  margin:  4rem auto 0;
+}
+::placeholder, [type="submit"]{
+  font-family: 'Roboto', sans-serif;
+  text-transform: capitalize;
+}

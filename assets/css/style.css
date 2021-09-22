@@ -32,6 +32,10 @@ html{
   border: 0;
   color: var(--light-color);
   background-color: var(--accent-color);
+
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 .text-align{
   text-align: center;

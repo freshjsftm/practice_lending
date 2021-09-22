@@ -1,0 +1,49 @@
+.cell img {
+  --cell-size: calc(100vw / 2);
+
+  width: var(--cell-size);
+  height: var(--cell-size);
+}
+.cell{
+  position: relative;
+  /* display: table;   */
+}
+.cell:hover::after{
+  content: url(../images/eye.png);
+  padding: 0 5px 0 0;
+  /* display: table-cell; */
+  /* vertical-align: middle; */
+
+  text-align: center;
+  padding-top: 40%;
+  /* vertical-align: -50%; */
+
+  background-color: var(--accent-color);
+  opacity: 80%;
+
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.table {
+  padding: 1rem 0;
+}
+
+.comp-logo img {
+  --logo-size: calc(100vw / 4);
+  width: var(--logo-size);
+  margin: auto;
+  display: block;
+}
+
+@media screen and (min-width: 768px) {
+  .cell img {
+    --cell-size: calc(100vw / 4);
+  }
+  .comp-logo img {
+    --logo-size: calc(100vw / 8);
+  }
+}

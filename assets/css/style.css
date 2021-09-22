@@ -12,7 +12,7 @@ html {
   scroll-behavior: smooth;
 }
 
-.main-heading,
+.main-heading::first-letter,
 .sub-heading::first-letter {
   text-transform: capitalize;
 }
@@ -23,7 +23,6 @@ html {
 }
 
 .main-heading {
-  white-space: nowrap;
   padding-top: 2rem;
   font-size: 3rem;
 }
@@ -75,6 +74,9 @@ html {
 @media screen and (min-width: 576px) {
   :root {
     font-size: 15px;
+  }
+  .main-heading {
+    white-space: nowrap;
   }
 }
 

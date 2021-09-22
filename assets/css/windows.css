@@ -1,0 +1,8 @@
+.center {
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.micro {
+  font-size: 25px;
+  padding: 1rem;
+}

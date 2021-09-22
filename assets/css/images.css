@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+}
+.center{
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+.all-image{
+  margin: 0 auto;
+
+}
+.image{
+    max-width: 100%;
+}

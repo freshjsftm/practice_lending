@@ -13,8 +13,12 @@ html {
 }
 
 .main-heading,
+.sub-heading::first-letter {
+  text-transform: capitalize;
+}
+.main-heading,
 .sub-heading {
-  margin-bottom: 2rem;
+  margin-bottom: 3.125rem;
   font-weight: 500;
 }
 

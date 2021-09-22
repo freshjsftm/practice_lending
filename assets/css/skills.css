@@ -1,0 +1,47 @@
+:root {
+  --progress-bg: #c4c4c4;
+}
+.skills-progress {
+  color: var(--text-color);
+}
+
+.progress {
+  padding-bottom: 1.3rem;
+  display: block;
+}
+.progress > div {
+  padding-bottom: 1rem;
+  text-transform: capitalize;
+}
+.progress > progress {
+  width: 100%;
+  height: 4px;
+  -webkit-appearance: none;
+}
+
+.progress > progress::-webkit-progress-value {
+  background-color: var(--accent-color);
+}
+.progress > progress::-webkit-progress-bar {
+  background-color: var(--progress-bg);
+}
+
+.user-avatar {
+  display: block;
+  margin: auto;
+  margin-top: 3rem;
+  width: 60%;
+}
+
+@media screen and (min-width: 768px) {
+  .user-avatar {
+    width: 100%;
+    margin-top: 0;
+  }
+  .progress > progress {
+    width: 80%;
+  }
+  .progress {
+    padding-bottom: 1.8rem;
+  }
+}

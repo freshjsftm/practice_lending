@@ -15,6 +15,7 @@ label+label{
 .name-form-wrapper>*{
  flex-basis: 48%;
 }
+
 .name-form-wrapper input{
   width: 100%;
   padding: 1rem; 

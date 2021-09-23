@@ -35,6 +35,14 @@ form {
     margin: 10px;
 }
 
+.flex-textarea .btn {
+    width: 200px;
+    margin: 60px auto;
+    margin-bottom: 0;
+    text-transform: uppercase;
+
+}
+
 textarea {
     border: none;
     width: 100%;

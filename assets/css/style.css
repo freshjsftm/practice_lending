@@ -45,11 +45,95 @@ html{
   white-space: nowrap;
   text-overflow: ellipsis;
 }
-
+.img-box {
+  display: flex;
+  flex-wrap: wrap;
+}
+.img-block {
+  position: relative;
+  width: 25%;
+  height: 50%;
+}
+.img-size {
+  width: 100%;
+}
+.dis-none {
+  display: none;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  background-color: rgb(11 34 68 / 60%);
+  z-index: 5;
+}
+.img-block:hover .dis-none {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img-block:focus .dis-none {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bacground {
+  background-color: #e2e2e2;
+}
+.dis-flex {
+  display: flex;
+}
+.input-style {
+  border: none;
+  padding: 16px 11px;
+  margin: 10px 0;
+  width: 100%;
+}
+.input-style:first-child {
+  margin-right: 22px;
+}
+.textarea {
+  border: none;
+  width: 100%;
+  margin: 10px 0;
+  padding: 4%;
+  resize: none;
+}
+.footer {
+  background-color: #34547A;
+  display: flex;
+  justify-content: space-around;
+}
+.text-color {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 35px 0;
+  margin-left: 10px;
+}
+.text-color div:first-child {
+  padding-bottom: 15px;
+}
+.vk {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  margin-right: 10px;
+}
+.vk img {
+  width: 80px;
+  padding: 0 10px;
+}
 
 @media screen and (min-width: 576px){
   :root{
     font-size: 15px;
+  }
+}
+@media screen and (max-width: 518px) {
+  .footer {
+    flex-direction: column;
+    align-items: flex-start;
   }
 }
 @media screen and (min-width: 768px){
@@ -64,5 +148,10 @@ html{
 @media screen and (min-width: 992px){
   :root{
     font-size: 16px;
+  }
+}
+@media screen and (max-width: 950px) {
+  .dis-flex {
+    flex-direction: column;
   }
 }

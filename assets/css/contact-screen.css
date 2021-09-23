@@ -1,0 +1,41 @@
+.contact-screen{
+  text-align: center;
+  background-color: var(--bg-color);
+}
+.margin-center{
+  margin: 0 auto;
+}
+
+.name{
+  width: 40%;
+  height: 3rem;
+  display: inline;
+  border: none;
+  position: relative;
+  top: 0;
+}
+
+.email{
+  padding-left: 1.5rem;
+  width: 20rem;
+  height: 3rem;
+  display: inline;
+  border: none;
+  position: relative;
+  top: 0;
+
+}
+.message-field{
+  width: 100%;
+  /* width: 20rem; */
+  height: 3rem;
+  padding-top: 1rem;
+  border: none;
+  margin: auto;
+
+}
+.btn-send{
+  margin: 100px;
+  width: 20%;
+}
+

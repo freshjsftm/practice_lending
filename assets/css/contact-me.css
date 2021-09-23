@@ -1,0 +1,23 @@
+.meine-liebe{
+  display: flex;
+  flex-direction: column;
+}
+.full-name{
+  display: flex;
+  justify-content: space-between;
+  
+}
+.full-name > *{
+  width: 47%;
+  padding: 10px;
+}
+.no-border{
+  border: none;
+}
+.height-fixed{
+  resize: none;
+  padding: 10px;
+}
+.btn-size{
+  width: 300px;
+}

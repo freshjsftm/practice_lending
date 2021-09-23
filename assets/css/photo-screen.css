@@ -1,3 +1,13 @@
 .wrapper-full{
   padding-top: 100%;
 }
+}
+img::after{
+  opacity: 0;
+}
+:hover{
+  opacity: 80%;
+}
+:focus{
+
+}

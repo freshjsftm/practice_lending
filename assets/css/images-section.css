@@ -21,7 +21,7 @@
     left: 0;
   }
   
-  .hover-img {
+  /* .hover-img {
     display: none;
     position: absolute;
     width: 100%;
@@ -35,6 +35,28 @@
     display: flex;
     justify-content: center;
     align-items: center;
+  } */
+
+  .response-side:hover::after,
+  .response-side:focus::after {
+    opacity: 0.6;
+  }
+
+  .response-side::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: var(--accent-color);
+    background-image: url(../images/eye.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
   }
 
 

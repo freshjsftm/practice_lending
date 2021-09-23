@@ -33,9 +33,13 @@
           <li class="nav-item">
             <a href="#about" class="nav-link">ОБ АВТoРЕ</a>
           </li>
-          <li class="nav-item"><a href="" class="nav-link">РАБОТЫ</a></li>
-          <li class="nav-item"><a href="" class="nav-link">ПРОЦЕСС</a></li>
-          <li class="nav-item"><a href="" class="nav-link">КОНТАКТЫ</a></li>
+          <li class="nav-item"><a href="#work" class="nav-link">РАБОТЫ</a></li>
+          <li class="nav-item">
+            <a href="#projects" class="nav-link">ПРОЦЕСС</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contacts" class="nav-link">КОНТАКТЫ</a>
+          </li>
         </ul>
       </nav>
     </header>
@@ -181,7 +185,7 @@
         </div>
       </div>
     </section>
-    <section class="work paddingY">
+    <section id="work" class="work paddingY">
       <div class="container">
         <div class="row">
           <article class="col-6 margin-center margin-bottom">
@@ -207,7 +211,7 @@
       </div>
     </section>
 
-    <section class="projects paddingY">
+    <section id="projects" class="projects paddingY">
       <div class="table">
         <div class="row no-space">
           <div class="col-6 col-md-3 cell">
@@ -257,7 +261,7 @@
       </div>
     </section>
 
-    <section class="form paddingY">
+    <section id="contacts" class="form paddingY">
       <div class="container">
         <div class="row">
           <article class="col-6 margin-center margin-center">
@@ -279,6 +283,7 @@
                   pattern="^[A-Za-z]{3,15}$"
                   name="name"
                   placeholder="Ваше имя"
+                  required
                 />
                 <input
                   type="text"
@@ -286,11 +291,13 @@
                   pattern="[^@ \t\r\n]+@[^@ \t\r\n]+\.[^@ \t\r\n]+"
                   name="email"
                   placeholder="Ваш e-mail"
+                  required
                 />
               </span>
               <textarea
                 class="input-comment"
                 placeholder="Сообщение"
+                required
               ></textarea>
               <input class="btn form-btn" type="submit" value="Отправить" />
             </form>
@@ -304,9 +311,15 @@
         <p>(с) 2018. Все права защищены.</p>
       </span>
       <span class="links-wrapper">
-        <a href="#"><img src="./assets/images/user-profile-link.png" alt="vk"></a>
-        <a href="#"><img src="./assets/images/user-profile-link.png" alt="vk"></a>
-        <a href="#"><img src="./assets/images/user-profile-link.png" alt="vk"></a>
+        <a href="#"
+          ><img src="./assets/images/user-profile-link.png" alt="vk"
+        /></a>
+        <a href="#"
+          ><img src="./assets/images/user-profile-link.png" alt="vk"
+        /></a>
+        <a href="#"
+          ><img src="./assets/images/user-profile-link.png" alt="vk"
+        /></a>
       </span>
     </footer>
   </body>

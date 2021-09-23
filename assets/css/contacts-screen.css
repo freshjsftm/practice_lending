@@ -1,0 +1,27 @@
+.contacts-screen{
+  --long-space: 20px;
+  --short-space: 10px;
+  border: 2px solid tomato;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid green;
+}
+input, textarea {
+  padding: var(--short-space) var(--long-space);
+  margin: var(--short-space) 0;
+  border: 2px solid grey;
+  border-radius: 3px;
+}
+textarea{
+  width: 100%;
+}
+.user-name {
+  display: flex;
+  justify-content: space-between;
+}
+/* minimum space between first and last names */
+.user-name input + input {
+  margin-left: var(--long-space);
+}

@@ -20,7 +20,6 @@
     <link rel="stylesheet" href="./assets/css/number-screen.css" />
     <link rel="stylesheet" href="./assets/css/stickers-screen.css" />
     <link rel="stylesheet" href="./assets/css/contacts-screen.css" />
-    
   </head>
   <body>
     <header class="navigation">
@@ -60,7 +59,7 @@
                 вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для
                 текстов на латинице с начала XVI века.
               </p>
-              <button class="btn">НАПИСАТЬ МНЕ</button>
+              <button class="btn" onclick="location.href='#contacts'">НАПИСАТЬ МНЕ</button>
             </article>
           </div>
         </div>
@@ -223,6 +222,7 @@
     </section>
 
     <section id="contacts" class="contacts-screen paddingY">
+     
       <article class="col-6 margin-center">
         <h2 class="sub-heading">Хотите веб-сайт?</h2>
         <p class="text-content">
@@ -231,6 +231,24 @@
           латинице с начала XVI века.
         </p>
       </article>
+
+      <form class="col-6 margin-center" action="handler" method="GET">
+        <!-- !!!! all- required -->
+        <div class="user-name">
+          <input
+            type="text"
+            pattern="^[A-Z][a-z]{2,15}$"
+            placeholder="Ваше имя"
+            name="firstName"
+            
+            autofocus
+          />
+          
+          <input type="email" placeholder="Ваш e-mail" name="email"  />
+        </div>
+        <textarea placeholder="Сообщение" name="message" ></textarea>
+        <button class="btn text-overflow">отправить</button>
+      </form>
     </section>
   </body>
 </html>

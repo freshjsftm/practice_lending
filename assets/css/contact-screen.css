@@ -1,0 +1,51 @@
+.contact-screen{
+  text-align: center;
+  background-color: var(--bg-color);
+}
+.margin-center{
+  margin: 0 auto;
+}
+.contact-form{
+padding: 3rem;
+}
+.info{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.name, .email{
+  width: 100%;
+  height: 3rem;
+  border: none;
+   
+}
+.email{
+  margin-top: 1rem;
+}
+
+.message-field{
+  width: 100%;
+  /* width: 20rem; */
+  height: 3rem;
+  padding-top: 1rem;
+  border: none;
+  margin: auto;
+}
+.btn-send{
+  margin: 2rem auto;
+  /* width: 100%; */
+}
+@media screen and (min-width: 576px){
+  .info{
+     flex-direction: row;
+  }
+  
+  .name, .email{
+    width: 48%;
+  }
+  .email{
+    margin-top: 0;
+  }
+  
+}

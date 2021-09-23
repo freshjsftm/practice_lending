@@ -21,6 +21,7 @@
     <link rel="stylesheet" href="./assets/css/skills-screen.css" />
     <link rel="stylesheet" href="./assets/css/work-screen.css" />
     <link rel="stylesheet" href="./assets/css/projects-screen.css" />
+    <link rel="stylesheet" href="./assets/css/form-screen.css" />
   </head>
   <body>
     <header class="navigation">
@@ -78,7 +79,7 @@
     <section class="number-screen paddingY">
       <div class="container">
         <div class="row">
-          <div class="col-6 col-sm-4 col-lg-2 flex center margin-bottom">
+          <div class="col-6 col-sm-4 col-lg-2 flex center ns-margin-bottom">
             <img
               src="./assets/images/project.png"
               alt=""
@@ -89,7 +90,7 @@
               <span class="overflow">проектов</span>
             </div>
           </div>
-          <div class="col-6 col-sm-4 col-lg-2 flex center margin-bottom">
+          <div class="col-6 col-sm-4 col-lg-2 flex center ns-margin-bottom">
             <img
               src="./assets/images/project.png"
               alt=""
@@ -100,7 +101,7 @@
               ><span class="overflow">проектов</span>
             </div>
           </div>
-          <div class="col-6 col-sm-4 col-lg-2 flex center margin-bottom">
+          <div class="col-6 col-sm-4 col-lg-2 flex center ns-margin-bottom">
             <img
               src="./assets/images/project.png"
               alt=""
@@ -111,7 +112,7 @@
               <span class="overflow">проектов</span>
             </div>
           </div>
-          <div class="col-6 col-sm-4 col-lg-2 flex center margin-bottom">
+          <div class="col-6 col-sm-4 col-lg-2 flex center ns-margin-bottom">
             <img
               src="./assets/images/project.png"
               alt=""
@@ -122,7 +123,7 @@
               ><span class="overflow">проектов</span>
             </div>
           </div>
-          <div class="col-6 col-sm-4 col-lg-2 flex center margin-bottom">
+          <div class="col-6 col-sm-4 col-lg-2 flex center ns-margin-bottom">
             <img
               src="./assets/images/project.png"
               alt=""
@@ -133,7 +134,7 @@
               ><span class="overflow">проектов</span>
             </div>
           </div>
-          <div class="col-6 col-sm-4 col-lg-2 flex center margin-bottom">
+          <div class="col-6 col-sm-4 col-lg-2 flex center ns-margin-bottom">
             <img
               src="./assets/images/project.png"
               alt=""
@@ -182,7 +183,7 @@
     <section class="work paddingY">
       <div class="container">
         <div class="row">
-          <article class="col-6 margin-center">
+          <article class="col-6 margin-center margin-bottom">
             <h2 class="sub-heading">как я работаю</h2>
             <p class="text-content row-overflow margin-center">
               Lorem Ipsum - это текст-"рыба", часто используемый в печати и
@@ -255,5 +256,46 @@
       </div>
     </section>
 
+    <section class="form paddingY">
+      <div class="container">
+        <div class="row">
+          <article class="col-6 margin-center margin-center">
+            <h2 class="sub-heading">хотите веб-сайт?</h2>
+            <p class="text-content row-overflow margin-center form-margin-bottom">
+              Lorem Ipsum - это текст-"рыба", часто используемый в печати и
+              вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов
+              на латинице с начала XVI века.
+            </p>
+          </article>
+        </div>
+        <div class="row">
+          <article class="col-10 col-lg-5 margin-center">
+            <form action="#">
+              <span class="input-data">
+                <input
+                  type="text"
+                  class="input-text"
+                  pattern="^[A-Za-z]{3,15}$"
+                  name="name"
+                  placeholder="Ваше имя"
+                />
+                <input
+                  type="text"
+                  class="input-text"
+                  pattern="[^@ \t\r\n]+@[^@ \t\r\n]+\.[^@ \t\r\n]+"
+                  name="email"
+                  placeholder="Ваш e-mail"
+                />
+              </span>
+              <textarea
+                class="input-comment"
+                placeholder="Сообщение"
+              ></textarea>
+              <input class="btn form-btn" type="submit" value="Отправить" />
+            </form>
+          </article>
+        </div>
+      </div>
+    </section>
   </body>
 </html>

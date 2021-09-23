@@ -55,6 +55,14 @@ html {
   padding-bottom: 2rem;
 }
 
+.margin-center {
+  margin: auto;
+}
+
+.margin-bottom{
+  margin-bottom: 1.5rem;
+}
+
 .overflow {
   overflow: hidden;
   white-space: nowrap;

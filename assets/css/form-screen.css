@@ -1,0 +1,49 @@
+.form {
+
+  --input-margin: 5%;
+  --data-margin-bottom: 1.25rem;
+
+  --input-text-width: calc((100% - var(--input-margin))/2);
+  --input-comment-height: 175px;
+
+  background-color: var(--bg-color);
+  text-align: center;
+}
+
+.input-data {
+  white-space: nowrap;
+  font-size: 0;
+}
+
+.input-comment,
+.input-text {
+  padding: 1rem;
+  border: none;
+}
+
+.input-text {
+  width: var(--input-text-width);
+  font-size: 1rem;
+}
+
+.input-text + .input-text {
+  margin-left: var(--input-margin);
+  margin-bottom: var(--data-margin-bottom);
+}
+
+.input-comment {
+  width: 100%;
+  height: var(--input-comment-height);
+
+  resize: none;
+  font-family: inherit;
+}
+
+.form-btn {
+  padding: 1.25rem 2.5rem;
+}
+
+.form-margin-bottom {
+  margin-bottom: 3rem;
+}
+

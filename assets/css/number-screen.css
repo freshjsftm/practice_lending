@@ -19,12 +19,12 @@
 .num.overflow {
   padding-bottom: 0.5rem;
 }
-.margin-bottom{
+.ns-margin-bottom{
   margin-bottom: 1.5rem;
 }
 
 @media screen and (min-width: 1000px){
-  .margin-bottom{
+  .ns-margin-bottom{
     margin-bottom: 0;
   }
 }

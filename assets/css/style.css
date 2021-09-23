@@ -7,6 +7,7 @@
   font-size: 14px;
   font-family: 'Roboto', sans-serif;
 }
+
 html{
   scroll-behavior: smooth;
 }
@@ -26,15 +27,17 @@ html{
   padding-top: 2rem;
   font-size: 2.5rem;
 }
+
 .sub-heading{
   font-size: 2rem;
 }
+
 .text-content{
   color: var(--text-color);
   line-height: 1.2;
   max-width: var(--content-max-width);
-  
 }
+
 .btn{
   margin-top: 2rem;
   padding: 1rem 2rem;
@@ -42,6 +45,7 @@ html{
   color: var(--light-color);
   background-color: var(--accent-color);
 }
+
 .text-align{
   text-align: center;
 }
@@ -51,11 +55,11 @@ html{
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
+
 .overflow{
   overflow: hidden;
   white-space: nowrap;
-  text-overflow: ellipsis;
-  
+  text-overflow: ellipsis; 
 }
 
 .row-overflow{

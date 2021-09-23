@@ -1,13 +1,10 @@
 .contact{
-  background-color: var(--bg-color);
-  
+  background-color: var(--bg-color); 
 }
 
 .form{
   --form-input-width: 20rem;
-
   width: var(--form-input-width);
- 
   margin: 0 auto;
   padding-top: 3rem;
 }
@@ -52,6 +49,7 @@ textarea, input{
   .form{
     --form-input-width: 35rem;
   }
+
   .info{
     flex-direction: row;
     justify-content: space-between;

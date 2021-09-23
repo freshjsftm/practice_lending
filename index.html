@@ -5,9 +5,211 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>WD</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Revalia&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/reset.css">
+  <link rel="stylesheet" href="./assets/css/custom-grid.css">
   <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/css/header.css">
+  <link rel="stylesheet" href="./assets/css/main-screen.css">
+  <link rel="stylesheet" href="./assets/css/about-screen.css">
+  <link rel="stylesheet" href="./assets/css/number-screen.css">
+  <link rel="stylesheet" href="./assets/css/work-process-screen.css">
+  <link rel="stylesheet" href="./assets/css/microsoft.css">
+  <link rel="stylesheet" href="./assets/css/contact-screen.css">
+  <link rel="stylesheet" href="./assets/css/projects-screen.css">
+  <link rel="stylesheet" href="./assets/css/footer.css">
+
 </head>
 <body>
-  
+  <header class="navigation">
+    <nav class="container flex">
+      <a href="#" class="logo">wD</a>
+      <ul class="nav-list">
+        <li class="nav-item"><a href="#main" class="nav-link">ГЛaВНАЯ</a></li>
+        <li class="nav-item"><a href="#about" class="nav-link">ОБ АВТoРЕ</a></li>
+        <li class="nav-item"><a href="#projects" class="nav-link">РАБОТЫ</a></li>
+        <li class="nav-item"><a href="#process" class="nav-link">ПРОЦЕСС</a></li>
+        <li class="nav-item"><a href="#contact" class="nav-link">КОНТАКТЫ</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="main-screen paddingY" id="main">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-6">
+          <div class="wrapper-main-img">
+            <div class="response-wrapper">
+              <img src="./assets/images/laptop.png" alt="Laptop" class="main-img">
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 ">
+          <article class="main-article">
+            <h1 class="main-heading overflow" title="Дизайн и верстка">Дизайн и верстка</h1>
+            <p class="text-content row-overflow main-content">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
+            <button class="btn">НАПИСАТЬ МНЕ</button>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="about-screen  paddingY">
+    <article class="col-6 margin-center">
+      <h2 class="sub-heading overflow  margin-center" title="Обо мне">Обо мне</h2>
+      <p class="text-content row-overflow margin-center">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
+    </article>
+</section>
+
+  <section class="number-screen paddingY">
+    <div class="container">
+      <div class="row">
+        <div class="col-6 col-sm-4 col-lg-2 flex center">
+          <img src="./assets/images/project.png" alt="" class="number-image">
+          <div class="number-info"><span class="num overflow">40+</span><span class="overflow">проектов</span></div>
+        </div>
+        <div class="col-6 col-sm-4 col-lg-2 flex center">
+          <img src="./assets/images/project.png" alt="" class="number-image">
+          <div class="number-info"><span class="num overflow">40+</span><span class="overflow">проектов</span></div>
+        </div>
+        <div class="col-6 col-sm-4 col-lg-2 flex center">
+          <img src="./assets/images/project.png" alt="" class="number-image">
+          <div class="number-info"><span class="num overflow">40+</span><span class="overflow">проектов</span></div>
+        </div>
+        <div class="col-6 col-sm-4 col-lg-2 flex center">
+          <img src="./assets/images/project.png" alt="" class="number-image">
+          <div class="number-info"><span class="num overflow">40+</span><span class="overflow">проектов</span></div>
+        </div>
+        <div class="col-6 col-sm-4 col-lg-2 flex center">
+          <img src="./assets/images/project.png" alt="" class="number-image">
+          <div class="number-info"><span class="num overflow">40+</span><span class="overflow">проектов</span></div>
+        </div>
+        <div class="col-6 col-sm-4 col-lg-2 flex center">
+          <img src="./assets/images/project.png" alt="" class="number-image">
+          <div class="number-info"><span class="num overflow">40+</span><span class="overflow">проектов</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="work-process paddingY" id="process">
+    <div class="container">
+      <article class="text-align work-process-content">
+      <h2 class="sub-heading overflow margin-center" title="Как я работаю">Как я работаю</h2>
+      <p class="margin-center text-content row-overflow" title="">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
+    </article>
+    <div class="working-video">
+      <iframe  width="560" height="315" src="https://www.youtube.com/embed/6mbFO0ZLMW8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    </div>
+    
+  </section>
+
+  <section class="projects" id="projects">
+    <ul class="list-project">
+      <li class="col-6 col-sm-3 project-img-li">
+        <div class="responsive">
+          <img class="project-img" src="./assets/images/photo2.png" alt="Project">
+        </div>
+        
+      </li>
+      <li class="col-6 col-sm-3 project-img-li">
+        <div class="responsive">
+          <img class="project-img" src="./assets/images/photo1.png" alt="Project">
+        </div>
+        
+      </li>
+      <li class="col-6 col-sm-3 project-img-li">
+        <div class="responsive">
+          <img class="project-img" src="./assets/images/photo2.png" alt="Project">
+        </div>
+      </li>
+      <li class="col-6 col-sm-3 project-img-li">
+        <div class="responsive">
+          <img class="project-img" src="./assets/images/photo1.png" alt="Project">
+        </div>
+      </li>
+      <li class="col-6 col-sm-3 project-img-li">
+        <div class="responsive">
+          <img class="project-img" src="./assets/images/photo1.png" alt="Project">
+        </div>
+      </li>
+      <li class="col-6 col-sm-3 project-img-li">
+        <div class="responsive">
+          <img class="project-img" src="./assets/images/photo2.png" alt="Project">
+        </div>
+      </li>
+      <li class="col-6 col-sm-3 project-img-li">
+        <div class="responsive">
+          <img class="project-img" src="./assets/images/photo1.png" alt="Project">
+        </div>
+      </li>
+      <li class="col-6 col-sm-3 project-img-li">
+        <div class="responsive">
+          <img class="project-img" src="./assets/images/photo2.png" alt="Project">
+        </div>
+        
+      </li>
+    </ul>
+  </section>
+
+
+
+  <section class="microsoft paddingY">
+    <div class="container">
+    <div class="row microsoft-container" >
+      <div class="col-6 col-lg-2">
+        <img src="./assets/images/Microsoft.png" alt="microsoft" class="img-microsoft">
+      </div>
+      <div class="col-6 col-lg-2">
+        <img src="./assets/images/Microsoft.png" alt="microsoft" class="img-microsoft">
+      </div>
+      <div class="col-6 col-lg-2">
+        <img src="./assets/images/Microsoft.png" alt="microsoft" class="img-microsoft">
+      </div>
+      <div class="col-6 col-lg-2">
+        <img src="./assets/images/Microsoft.png" alt="microsoft" class="img-microsoft">
+      </div>
+
+    </div>
+   </div>
+  </section>
+
+  <section class="contact paddingY text-align" id="contact">
+    <div class="container">
+      <article class="contact-content">
+        <h2 class="sub-heading overflow margin-center">Хотите веб-сайт?</h2>
+        <p class="text-content row-overflow margin-center">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
+     
+        <form action="#" method="GET" class="form">
+          <div class="info">
+            <input type="text" name="Name" placeholder="Ваше имя" required>
+            <input type="email" name="Email" placeholder="Ваш e-mail" required>
+          </div>
+          <textarea name="Message" id="" cols="" rows="7" placeholder="Сообщение"></textarea>
+          <button type="submit" class="btn btn-submit">Отправить</button>
+        </form> 
+      </article>
+    </div>
+  </section>
+
+  <footer class="footer ">
+    <div class="footer-wrapper container">
+      <div class="footer-content">
+        <p>Иванов Иван</p>
+        <p>(с) 2018. Все права защищены.</p>
+      </div> 
+      <div class="social">
+        <img src="./assets/images/vk.png" alt="vk">
+        <img src="./assets/images/vk.png" alt="vk">
+        <img src="./assets/images/vk.png" alt="vk">
+      </div>
+  </div> 
+  </footer>
+
+
 </body>
 </html>

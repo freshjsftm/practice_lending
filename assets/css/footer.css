@@ -1,0 +1,20 @@
+.footer{
+  background-color: var(--accent-color);
+}
+
+.footer-wrapper{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--light-color);
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.social>img{
+  width: 2rem;
+}
+
+
+
+  

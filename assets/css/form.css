@@ -1,6 +1,39 @@
-.margin-center{
+.margin-center {
   margin: 0 auto;
 }
-.form{
+.form {
   text-align: center;
+}
+.yourform {
+  border: none;
+}
+.name {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding-top: 15px;
+}
+.names {
+  width: 100%;
+  height: 45px;
+  padding-left: 10px;
+}
+.message {
+  height: 150px;
+}
+.mess {
+  height: 100%;
+  width: 100%;
+  margin-top: 15px;
+  padding-left: 10px;
+  padding-bottom: 90px;
+}
+
+@media screen and (min-width: 576px) {
+  .name {
+    flex-direction: row;
+  }
+  .names {
+    width: 48%;
+  }
 }

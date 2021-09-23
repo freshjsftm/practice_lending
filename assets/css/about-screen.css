@@ -1,6 +1,10 @@
 .about-screen{
   text-align: center;
+  background-color:var(--bg-color);
 }
 .margin-center{
   margin: 0 auto;
+}
+textarea{
+  margin-top: 15px;
 }

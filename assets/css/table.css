@@ -6,17 +6,12 @@
 }
 .cell{
   position: relative;
-  /* display: table;   */
 }
 .cell:hover::after{
-  content: url(../images/eye.png);
-  padding: 0 5px 0 0;
-  /* display: table-cell; */
-  /* vertical-align: middle; */
-
-  text-align: center;
-  padding-top: 40%;
-  /* vertical-align: -50%; */
+  content: '';
+  background-image: url(../images/eye.png);
+  background-repeat: no-repeat;
+  background-position: center;
 
   background-color: var(--accent-color);
   opacity: 80%;

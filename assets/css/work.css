@@ -9,9 +9,21 @@
   margin-top: 2rem;
 }
 
-.response-wrapper {
+.inner-wrapper {
   padding-top: 60%;
   position: relative;
+}
+.inner-wrapper::after{
+  content: '';
+  background-image: url(../images/play-btn.png);
+  background-repeat: no-repeat;
+  background-position: center;
+
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
 }
 
 .video-player {

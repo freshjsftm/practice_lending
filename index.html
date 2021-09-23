@@ -15,6 +15,12 @@
   <link rel="stylesheet" href="./assets/css/main-screen.css">
   <link rel="stylesheet" href="./assets/css/about-screen.css">
   <link rel="stylesheet" href="./assets/css/number-screen.css">
+  <link rel="stylesheet" href="./assets/css/work-process-screen.css">
+  <link rel="stylesheet" href="./assets/css/microsoft.css">
+  <link rel="stylesheet" href="./assets/css/contact-screen.css">
+  <link rel="stylesheet" href="./assets/css/projects-screen.css">
+  <link rel="stylesheet" href="./assets/css/footer.css">
+
 </head>
 <body>
   <header class="navigation">
@@ -23,38 +29,41 @@
       <ul class="nav-list">
         <li class="nav-item"><a href="#main" class="nav-link">ГЛaВНАЯ</a></li>
         <li class="nav-item"><a href="#about" class="nav-link">ОБ АВТoРЕ</a></li>
-        <li class="nav-item"><a href="" class="nav-link">РАБОТЫ</a></li>
-        <li class="nav-item"><a href="" class="nav-link">ПРОЦЕСС</a></li>
-        <li class="nav-item"><a href="" class="nav-link">КОНТАКТЫ</a></li>
+        <li class="nav-item"><a href="#projects" class="nav-link">РАБОТЫ</a></li>
+        <li class="nav-item"><a href="#process" class="nav-link">ПРОЦЕСС</a></li>
+        <li class="nav-item"><a href="#contact" class="nav-link">КОНТАКТЫ</a></li>
       </ul>
     </nav>
   </header>
+
   <section class="main-screen paddingY" id="main">
     <div class="container">
       <div class="row">
         <div class="col-12 col-md-6">
           <div class="wrapper-main-img">
             <div class="response-wrapper">
-              <img src="./assets/images/laptop.png" alt="" class="main-img">
+              <img src="./assets/images/laptop.png" alt="Laptop" class="main-img">
             </div>
           </div>
         </div>
         <div class="col-12 col-md-6 ">
           <article class="main-article">
-            <h1 class="main-heading">Дизайн и верстка</h1>
-            <p class="text-content row-overflow">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
+            <h1 class="main-heading overflow" title="Дизайн и верстка">Дизайн и верстка</h1>
+            <p class="text-content row-overflow main-content">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
             <button class="btn">НАПИСАТЬ МНЕ</button>
           </article>
         </div>
       </div>
     </div>
   </section>
+
   <section id="about" class="about-screen  paddingY">
-      <article class="col-6 margin-center">
-        <h2 class="sub-heading">Обо мне</h2>
-        <p class="text-content">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
-      </article>
-  </section>
+    <article class="col-6 margin-center">
+      <h2 class="sub-heading overflow  margin-center" title="Обо мне">Обо мне</h2>
+      <p class="text-content row-overflow margin-center">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
+    </article>
+</section>
+
   <section class="number-screen paddingY">
     <div class="container">
       <div class="row">
@@ -85,5 +94,105 @@
       </div>
     </div>
   </section>
+
+  <section class="work-process paddingY" id="process">
+    <div class="container">
+      <article class="text-align work-process-content">
+      <h2 class="sub-heading overflow margin-center" title="Как я работаю">Как я работаю</h2>
+      <p class="margin-center text-content row-overflow" title="">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
+    </article>
+    <div class="working-video">
+      <iframe  width="560" height="315" src="https://www.youtube.com/embed/6mbFO0ZLMW8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    </div>
+    
+  </section>
+
+  <section class="projects" id="projects">
+    <ul class="list-project">
+      <li class="col-6 col-sm-3 project-img-li">
+        <img class="project-img" src="./assets/images/photo2.png" alt="Project">
+      </li>
+      <li class="col-6 col-sm-3 project-img-li">
+        <img class="project-img" src="./assets/images/photo1.png" alt="Project">
+      </li>
+      <li class="col-6 col-sm-3 project-img-li">
+        <img class="project-img" src="./assets/images/photo2.png" alt="Project">
+      </li>
+      <li class="col-6 col-sm-3 project-img-li">
+        <img class="project-img" src="./assets/images/photo1.png" alt="Project">
+      </li>
+      <li class="col-6 col-sm-3 project-img-li">
+        <img class="project-img" src="./assets/images/photo1.png" alt="Project">
+      </li>
+      <li class="col-6 col-sm-3 project-img-li">
+        <img class="project-img" src="./assets/images/photo2.png" alt="Project">
+      </li>
+      <li class="col-6 col-sm-3 project-img-li">
+        <img class="project-img" src="./assets/images/photo1.png" alt="Project">
+      </li>
+      <li class="col-6 col-sm-3 project-img-li">
+        <img class="project-img" src="./assets/images/photo2.png" alt="Project">
+      </li>
+    </ul>
+  </section>
+
+
+
+  <section class="microsoft paddingY">
+    <div class="container">
+    <div class="row microsoft-container" >
+      <div class="col-6 col-lg-2">
+        <img src="./assets/images/Microsoft.png" alt="microsoft" class="img-microsoft">
+      </div>
+      <div class="col-6 col-lg-2">
+        <img src="./assets/images/Microsoft.png" alt="microsoft" class="img-microsoft">
+      </div>
+      <div class="col-6 col-lg-2">
+        <img src="./assets/images/Microsoft.png" alt="microsoft" class="img-microsoft">
+      </div>
+      <div class="col-6 col-lg-2">
+        <img src="./assets/images/Microsoft.png" alt="microsoft" class="img-microsoft">
+      </div>
+
+    </div>
+   </div>
+  </section>
+
+  <section class="contact paddingY text-align" id="contact">
+    <div class="container">
+      <article class="contact-content">
+        <h2 class="sub-heading overflow margin-center">Хотите веб-сайт?</h2>
+        <p class="text-content row-overflow margin-center">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
+     
+        <form action="#" method="GET" class="form">
+          <div class="info">
+            <input type="text" name="Name" placeholder="Ваше имя" required>
+            <input type="email" name="Email" placeholder="Ваш e-mail" required>
+          </div>
+          <textarea name="Message" id="" cols="" rows="7" placeholder="Сообщение"></textarea>
+          <button type="submit" class="btn btn-submit">Отправить</button>
+        </form> 
+      </article>
+    </div>
+  </section>
+
+  <footer class="footer ">
+    <div class="footer-wrapper container ">
+      <div class="footer-content">
+        <p>Иванов Иван</p>
+        <p>(с) 2018. Все права защищены.</p>
+      </div> 
+      <div class="social">
+        <img src="./assets/images/vk.png" alt="vk">
+        <img src="./assets/images/vk.png" alt="vk">
+        <img src="./assets/images/vk.png" alt="vk">
+      </div>
+  </div>
+     
+      
+  </footer>
+
+
 </body>
 </html>

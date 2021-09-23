@@ -1,8 +1,9 @@
 :root{
   --accent-color: #34547A;
-  --bg-color: #e4e4e4;
+  --bg-color: #EEEFF1;
   --text-color: #727272;
-  --light-color: #fefefe;
+  --light-color: #fff;
+  --content-max-width:520px;
   font-size: 14px;
   font-family: 'Roboto', sans-serif;
 }
@@ -10,11 +11,17 @@ html{
   scroll-behavior: smooth;
 }
 
+.margin-center{
+  margin:  auto;
+}
+
 .main-heading,
 .sub-heading{
   margin-bottom: 2rem;
   font-weight: 500;
+  max-width:var(--content-max-width);
 }
+
 .main-heading{
   padding-top: 2rem;
   font-size: 2.5rem;
@@ -24,7 +31,9 @@ html{
 }
 .text-content{
   color: var(--text-color);
-  line-height: 1.5;
+  line-height: 1.2;
+  max-width: var(--content-max-width);
+  
 }
 .btn{
   margin-top: 2rem;
@@ -36,6 +45,8 @@ html{
 .text-align{
   text-align: center;
 }
+
+
 .paddingY{
   padding-top: 2rem;
   padding-bottom: 2rem;
@@ -44,7 +55,19 @@ html{
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
+  
 }
+
+.row-overflow{
+  max-height: calc(1.5rem*3);
+  line-height: 1.5;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical; 
+  overflow: hidden;
+}
+  
+  
 
 
 @media screen and (min-width: 576px){
@@ -52,6 +75,7 @@ html{
     font-size: 15px;
   }
 }
+
 @media screen and (min-width: 768px){
   .main-heading{
     padding-top: 0;

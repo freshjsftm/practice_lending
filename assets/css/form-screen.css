@@ -4,8 +4,12 @@
 
 .name-form-wrapper{
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  
   margin-bottom: 1rem;
+}
+label+label{
+  margin-top: 1rem ;
 }
 
 .name-form-wrapper>*{
@@ -31,12 +35,23 @@ textarea{
   font-family: 'Roboto', sans-serif;
   text-transform: capitalize;
 }
+
+
 @media screen and (min-width: 576px){  
   .question-job{
     padding: 1rem 0;
   }
   .register-form{
     padding: 2rem 0;
+    }
+    .name-form-wrapper{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin-bottom: 1rem;
+    }
+    label+label{
+      margin-top: 0 ;
     }
   .form-btn{    
     margin:  2rem auto 0;

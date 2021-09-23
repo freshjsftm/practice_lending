@@ -2,10 +2,11 @@
   padding-top: 100%;
 }
 }
-img::after{
+.main-img::after{
+  display: block;
   opacity: 0;
 }
-:hover{
+.main-img:hover{
   opacity: 80%;
 }
 :focus{

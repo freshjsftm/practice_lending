@@ -1,9 +1,11 @@
-.cell img {
-  --cell-size: calc(100vw / 2);
-
-  width: var(--cell-size);
-  height: var(--cell-size);
+.projects{
+  padding-top: 0;
 }
+
+.table {
+  padding: 1rem 0 2rem;
+}
+
 .cell{
   position: relative;
 }
@@ -22,9 +24,11 @@
   right: 0;
   left: 0;
 }
+.cell img {
+  --cell-size: calc(100vw / 2);
 
-.table {
-  padding: 1rem 0;
+  width: var(--cell-size);
+  height: var(--cell-size);
 }
 
 .comp-logo img {

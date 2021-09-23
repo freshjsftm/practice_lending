@@ -1,0 +1,15 @@
+.footer-screen{
+  background-color: var(--accent-color);
+  color: var(--light-color);
+}
+.center{
+  justify-content:initial;
+}
+.flex{
+  margin-bottom: 2rem;
+}
+.vk{
+  /* display: flex; */
+  /* flex-direction: column; */
+  
+}

@@ -3,9 +3,7 @@
   padding-top: 50px;
   padding-bottom: 50px;
 }
-/* .container-form{
-  padding-bottom: 40px;
-} */
+
 .container-input{
   display:flex;
   flex-direction: row;

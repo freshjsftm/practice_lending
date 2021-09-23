@@ -9,7 +9,5 @@
   margin-bottom: 2rem;
 }
 .vk{
-  /* display: flex; */
-  /* flex-direction: column; */
-  
+  display: inline-block;
 }

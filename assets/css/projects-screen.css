@@ -1,0 +1,48 @@
+.projects{
+  padding-top: 0;
+}
+
+.table {
+  padding: 1rem 0 2rem;
+}
+
+.cell{
+  position: relative;
+}
+.cell:hover::after{
+  content: '';
+  background-image: url(../images/eye.png);
+  background-repeat: no-repeat;
+  background-position: center;
+
+  background-color: var(--accent-color);
+  opacity: 80%;
+
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+.cell img {
+  --cell-size: calc(100vw / 2);
+
+  width: var(--cell-size);
+  height: var(--cell-size);
+}
+
+.comp-logo img {
+  --logo-size: calc(100vw / 4);
+  width: var(--logo-size);
+  margin: auto;
+  display: block;
+}
+
+@media screen and (min-width: 768px) {
+  .cell img {
+    --cell-size: calc(100vw / 4);
+  }
+  .comp-logo img {
+    --logo-size: calc(100vw / 8);
+  }
+}

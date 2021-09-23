@@ -1,0 +1,33 @@
+.footer {
+  --footer-padding: 3.125rem;
+
+  padding: var(--footer-padding) calc(var(--footer-padding) * 2);
+  background-color: var(--accent-color);
+}
+
+.creator-info {
+  color: white;
+}
+.creator-info > p:first-child {
+  padding-bottom: 1.3rem; 
+
+  font-size: 21px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+.creator-info > p:last-child {
+  font-size: 13px;
+}
+
+.links-wrapper a + a {
+  margin-left: 1rem;
+}
+.links-wrapper img {
+  margin-bottom: 1rem;
+}
+
+@media screen and (min-width: 500px) {
+  .links-wrapper img {
+    margin-bottom: 0;
+  }
+}

@@ -45,12 +45,16 @@ html{
   white-space: nowrap;
   text-overflow: ellipsis;
 }
+.video-info {
+  padding-bottom: 50px;
+}
 
 
 @media screen and (min-width: 576px){
   :root{
     font-size: 15px;
   }
+
 }
 @media screen and (min-width: 768px){
   .main-heading{

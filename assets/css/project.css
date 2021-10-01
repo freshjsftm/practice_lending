@@ -1,0 +1,45 @@
+
+.projects {
+  margin: 20px 0px;
+}
+
+.progect-img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.no-space {
+  width: 100%;
+  padding: 0px;
+}
+.img-wrap {
+  position: relative;
+}
+
+.img-wrap::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  display: block;
+  position: absolute;
+  background-image: url(../images/ieye.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: var(--accent-color);
+ 
+}
+
+.img-wrap:focus::before{
+  opacity: 0.5;
+}
+
+@media screen and (min-width: 576px){
+  .img-wrap:hover::before{
+    opacity: 0.5;
+  }
+  }

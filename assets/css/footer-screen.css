@@ -1,5 +1,6 @@
 .footer-screen{
 background-color: var(--accent-color);
+color: var(--light-color);
 
 }
 .footer-wrapper{

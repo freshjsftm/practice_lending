@@ -6,6 +6,7 @@
   font-size: 14px;
   font-family: 'Roboto', sans-serif;
 }
+
 html{
   scroll-behavior: smooth;
 }
@@ -45,6 +46,7 @@ html{
   white-space: nowrap;
   text-overflow: ellipsis;
 }
+
 
 
 @media screen and (min-width: 576px){

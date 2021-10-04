@@ -15,21 +15,24 @@
   <link rel="stylesheet" href="./assets/css/main-screen.css">
   <link rel="stylesheet" href="./assets/css/about-screen.css">
   <link rel="stylesheet" href="./assets/css/number-screen.css">
+  <link rel="stylesheet" href="./assets/css/photo-screen.css">
+  <link rel="stylesheet" href="./assets/css/form-screen.css">
+  <link rel="stylesheet" href="./assets/css/footer-screen.css">
 </head>
 <body>
   <header class="navigation">
-    <nav class="container flex">
-      <a href="#" class="logo">wD</a>
+    <nav id="main" class="container flex">
+      <a href="#top" class="logo">wD</a>
       <ul class="nav-list">
         <li class="nav-item"><a href="#main" class="nav-link">ГЛaВНАЯ</a></li>
         <li class="nav-item"><a href="#about" class="nav-link">ОБ АВТoРЕ</a></li>
-        <li class="nav-item"><a href="" class="nav-link">РАБОТЫ</a></li>
-        <li class="nav-item"><a href="" class="nav-link">ПРОЦЕСС</a></li>
-        <li class="nav-item"><a href="" class="nav-link">КОНТАКТЫ</a></li>
+        <li class="nav-item"><a href="#jobs" class="nav-link">РАБОТЫ</a></li>
+        <li class="nav-item"><a href="#process" class="nav-link">ПРОЦЕСС</a></li>
+        <li class="nav-item"><a href="#contacts" class="nav-link">КОНТАКТЫ</a></li>
       </ul>
     </nav>
   </header>
-  <section class="main-screen paddingY" id="main">
+  <section class="main-screen paddingY" >
     <div class="container">
       <div class="row">
         <div class="col-12 col-md-6">
@@ -40,7 +43,7 @@
           </div>
         </div>
         <div class="col-12 col-md-6 ">
-          <article class="main-article">
+          <article id="main" class="main-article">
             <h1 class="main-heading">Дизайн и верстка</h1>
             <p class="text-content row-overflow">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
             <button class="btn">НАПИСАТЬ МНЕ</button>
@@ -55,7 +58,7 @@
         <p class="text-content">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
       </article>
   </section>
-  <section class="number-screen paddingY">
+  <section id="jobs" class="number-screen paddingY">
     <div class="container">
       <div class="row">
         <div class="col-6 col-sm-4 col-lg-2 flex center">
@@ -85,5 +88,97 @@
       </div>
     </div>
   </section>
+  <section id="process" class="photo-screen">
+      <div class="row no-space">
+        <div class="col-12 col-sm-6 col-mg-4 col-lg-3">
+          <div class="response-wrapper wrapper-full">
+            <img class="main-img" src="./assets/images/Rectangle 7.png" alt="">
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-mg-4 col-lg-3">
+          <div class="response-wrapper wrapper-full">
+            <img class="main-img" src="./assets/images/Rectangle 7.3.png" alt="">
+          </div>
+        </div>
+        
+        <div class="col-12 col-sm-6 col-mg-4 col-lg-3">
+          <div class="response-wrapper wrapper-full">
+            <img class="main-img" src="./assets/images/Rectangle 7.png" alt="">
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-mg-4 col-lg-3">
+          <div class="response-wrapper wrapper-full">
+            <img class="main-img" src="./assets/images/Rectangle 7.3.png" alt="">
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-mg-4 col-lg-3">
+          <div class="response-wrapper wrapper-full">
+            <img class="main-img" src="./assets/images/Rectangle 7.png" alt="">
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-mg-4 col-lg-3">
+          <div class="response-wrapper wrapper-full">
+            <img class="main-img" src="./assets/images/Rectangle 7.3.png" alt="">
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-mg-4 col-lg-3">
+          <div class="response-wrapper wrapper-full">
+            <img class="main-img" src="./assets/images/Rectangle 7.png" alt="">
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-mg-4 col-lg-3">
+          <div class="response-wrapper wrapper-full">
+            <img class="main-img" src="./assets/images/Rectangle 7.3.png" alt="">
+          </div>
+        </div>
+        
+        
+        
+  </section>
+  <section id="contacts" class="form-screen paddingY">
+    <div class="container ">
+      <div class="col-12 col-md-10 col-lg-6 col-xl-4 margin-center ">
+        <article class="question-job paddingY text-align">
+          <h2 class="sub-heading overflow">Хотите  веб-сайт?</h2>
+          <p class="text-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia ipsum, tempore rerum molestias a odit, ab, tempora natus enim sequi cupiditate corrupti exercitationem debitis impedit aliquid illum doloribus voluptatibus iusto.</p>
+        </article>
+        <form class="register-form paddingY" action="#" method="GET">
+            <div class="name-form-wrapper ">
+              <label><input type="text" placeholder="ваше имя" autofocus required></label>
+            
+              <label><input type="email" name="email" placeholder="ваш e-mail" required></label>
+            </div>
+
+            <textarea name="message"  rows="6"     placeholder="сообщение"></textarea>
+            
+            <input class="btn form-btn overflow" type="submit" value="отправить">
+          </form>
+        
+      </div>
+    </div>
+  </section>
+  <footer class="footer-screen">
+    <div class="footer-wrapper container">
+      <div class="container-of-rights col-12 col-sm-7 col-md-6 col-lg-6">
+        <p class="user-name ">иванов иван</p>
+        <p class="right">&copy;  2018. Все права защинены</p>
+      </div>
+      <div class="container-footer-images col-6 col-sm-5 col-md-3 col-lg-6">
+        <div class="footer-img-wrapper">
+        <img class="footer-images" src="./assets/images/vk.png" alt="vs" >
+      </div>
+      <div class="footer-img-wrapper">
+        <img class="footer-images" src="./assets/images/vk.png" alt="vs" >
+      </div>
+      <div class="footer-img-wrapper">
+        <img class="footer-images" src="./assets/images/vk.png" alt="vs" >
+      </div>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>

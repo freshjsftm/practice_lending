@@ -1,0 +1,27 @@
+.wrapper-full{
+  position: relative;
+  padding-top: 100%;
+}
+
+.wrapper-full::after{
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: var(--accent-color);
+  background-image: url(./../images/eye.png);
+  background-repeat: no-repeat;
+  background-position: 50%; 
+     
+}
+
+.wrapper-full:hover::after,
+.wrapper-full:focus::after{
+  opacity: 80%;
+}

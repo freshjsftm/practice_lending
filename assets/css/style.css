@@ -20,6 +20,7 @@ html{
   font-size: 2.5rem;
 }
 .sub-heading{
+  text-align: center;
   font-size: 2rem;
 }
 .text-content{
@@ -46,9 +47,6 @@ html{
   text-overflow: ellipsis;
 }
 
-.about-screen{
-  text-align: center;
-}
 .margin-center{
   margin: 0 auto;
 }

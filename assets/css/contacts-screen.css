@@ -1,27 +1,57 @@
 .contacts-screen{
   --long-space: 20px;
   --short-space: 10px;
-  border: 2px solid tomato;
+  /* border: 2px solid tomato; */
+  text-align: center;
+}
+.text-content{
+  margin-bottom: 50px;
 }
 form {
   display: flex;
   flex-direction: column;
-  border: 2px solid green;
+  /* border: 2px solid green; */
 }
 input, textarea {
   padding: var(--short-space) var(--long-space);
   margin: var(--short-space) 0;
   border: 2px solid grey;
   border-radius: 3px;
+  font-family: inherit;
+  font-size: 14px;
 }
 textarea{
   width: 100%;
+  height: 175px;
 }
-.user-name {
+.user-data {
   display: flex;
   justify-content: space-between;
 }
-/* minimum space between first and last names */
-.user-name input + input {
+
+.data-input{
+  width: 45%;
+}
+
+.btn{
+  width: 190px;
+  height: 55px;
+  margin: 0 auto;
+  margin-top: 30px;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+/* .user-name input + input {
   margin-left: var(--long-space);
+} */
+
+@media screen and (max-width: 768px) {
+  .user-data{
+    flex-direction: column;
+  }
+
+  .data-input{
+    width: 100%;
+  }
 }

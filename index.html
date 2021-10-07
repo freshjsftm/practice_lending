@@ -20,6 +20,7 @@
     <link rel="stylesheet" href="./assets/css/number-screen.css" />
     <link rel="stylesheet" href="./assets/css/stickers-screen.css" />
     <link rel="stylesheet" href="./assets/css/contacts-screen.css" />
+    <link rel="stylesheet" href="./assets/css/footer-screen.css" />
   </head>
   <body>
     <header class="navigation">
@@ -53,7 +54,7 @@
           </div>
           <div class="col-12 col-md-6">
             <article class="main-article">
-              <h1 class="main-heading">Дизайн и верстка</h1>
+              <h1 class="main-heading overflow">Дизайн и верстка</h1>
               <p class="text-content row-overflow">
                 Lorem Ipsum - это текст-"рыба", часто используемый в печати и
                 вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для
@@ -70,8 +71,8 @@
 
     <section id="about" class="about-screen paddingY">
       <article class="col-6 margin-center">
-        <h2 class="sub-heading">Обо мне</h2>
-        <p class="text-content">
+        <h2 class="sub-heading overflow">Обо мне</h2>
+        <p class="text-content row-overflow">
           Lorem Ipsum - это текст-"рыба", часто используемый в печати и
           вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на
           латинице с начала XVI века.
@@ -225,8 +226,8 @@
 
     <section id="contacts" class="contacts-screen paddingY">
       <article class="col-6 margin-center">
-        <h2 class="sub-heading">Хотите веб-сайт?</h2>
-        <p class="text-content">
+        <h2 class="sub-heading overflow">Хотите веб-сайт?</h2>
+        <p class="text-content row-overflow">
           Lorem Ipsum - это текст-"рыба", часто используемый в печати и
           вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на
           латинице с начала XVI века.
@@ -234,7 +235,6 @@
       </article>
 
       <form class="col-6 margin-center" action="handler" method="GET">
-        <!-- !!!! all- required -->
         <div class="user-data">
           <input
             class="data-input"
@@ -242,14 +242,42 @@
             pattern="^[A-Z][a-z]{2,15}$"
             placeholder="Ваше имя"
             name="firstName"
-            autofocus
+            required
           />
-
-          <input class="data-input" type="email" placeholder="Ваш e-mail" name="email" />
+          <input
+            class="data-input"
+            type="email"
+            placeholder="Ваш e-mail"
+            name="email"
+            required
+          />
         </div>
-        <textarea placeholder="Сообщение" name="message"></textarea>
-        <button class="btn text-overflow">отправить</button>
+        <textarea placeholder="Сообщение" name="message" required></textarea>
+        <button class="btn overflow">отправить</button>
       </form>
+    </section>
+
+    <section class="footer-screen">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-sm-6 developer-container flex">
+            <span class="developer-name overflow">Иванов Иван</span>
+            <span class="developer-copyright overflow"
+              >&copy; 2021. Все права защищены.</span>
+          </div>
+          <div class="col-12 col-sm-6 vk-logo-container flex">
+            <a href="" class="logo-image"
+              ><img src="./assets/images/vk-logo.png" alt=""
+            /></a>
+            <a href="" class="logo-image"
+              ><img src="./assets/images/vk-logo.png" alt=""
+            /></a>
+            <a href="" class="logo-image"
+              ><img src="./assets/images/vk-logo.png" alt=""
+            /></a>
+          </div>
+        </div>
+      </div>
     </section>
   </body>
 </html>

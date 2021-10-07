@@ -1,40 +1,47 @@
-.navigation{
+.navigation {
   background-color: var(--bg-color);
   padding: 1rem 0;
 }
-.flex{
+
+.flex {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.logo{
+
+.logo {
   display: none;
   color: var(--accent-color);
   text-transform: uppercase;
-  font-family: 'Revalia', cursive;
+  font-family: "Revalia", cursive;
   font-size: 2rem;
   transform: translateY(-0.5rem);
 }
-.nav-list{
+
+.nav-list {
   display: flex;
   overflow-x: auto;
 }
-.nav-list::-webkit-scrollbar{
+
+.nav-list::-webkit-scrollbar {
   display: none;
 }
-.nav-item + .nav-item{
+
+.nav-item + .nav-item {
   margin-left: 1rem;
 }
-.nav-link{
+
+.nav-link {
   white-space: nowrap;
   text-transform: uppercase;
 }
 
-@media screen and (min-width:576px){
-  .logo{
+@media screen and (min-width: 576px) {
+  .logo {
     display: block;
   }
-  .flex{
+
+  .flex {
     justify-content: space-between;
   }
 }

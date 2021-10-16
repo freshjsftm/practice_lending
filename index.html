@@ -70,7 +70,7 @@
     </section>
 
     <section id="about" class="about-screen paddingY">
-      <article class="col-6 margin-center">
+      <article class="col-10 col-sm-8 col-lg-6 margin-center">
         <h2 class="sub-heading overflow">Обо мне</h2>
         <p class="text-content row-overflow">
           Lorem Ipsum - это текст-"рыба", часто используемый в печати и
@@ -225,36 +225,38 @@
     </section>
 
     <section id="contacts" class="contacts-screen paddingY">
-      <article class="col-6 margin-center">
-        <h2 class="sub-heading overflow">Хотите веб-сайт?</h2>
-        <p class="text-content row-overflow">
-          Lorem Ipsum - это текст-"рыба", часто используемый в печати и
-          вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на
-          латинице с начала XVI века.
-        </p>
-      </article>
+      <div class="container">
+        <article class="col-10 col-sm-8 col-lg-6 margin-center">
+          <h2 class="sub-heading overflow">Хотите веб-сайт?</h2>
+          <p class="text-content row-overflow">
+            Lorem Ipsum - это текст-"рыба", часто используемый в печати и
+            вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на
+            латинице с начала XVI века.
+          </p>
+        </article>
 
-      <form class="col-6 margin-center" action="handler" method="GET">
-        <div class="user-data">
-          <input
-            class="data-input"
-            type="text"
-            pattern="^[A-Z][a-z]{2,15}$"
-            placeholder="Ваше имя"
-            name="firstName"
-            required
-          />
-          <input
-            class="data-input"
-            type="email"
-            placeholder="Ваш e-mail"
-            name="email"
-            required
-          />
-        </div>
-        <textarea placeholder="Сообщение" name="message" required></textarea>
-        <button class="btn overflow">отправить</button>
-      </form>
+        <form class="col-10 col-sm-8 col-lg-6 margin-center" action="handler" method="GET">
+          <div class="user-data">
+            <input
+              class="data-input"
+              type="text"
+              pattern="^[A-Z][a-z]{2,15}$"
+              placeholder="Ваше имя"
+              name="firstName"
+              required
+            />
+            <input
+              class="data-input"
+              type="email"
+              placeholder="Ваш e-mail"
+              name="email"
+              required
+            />
+          </div>
+          <textarea placeholder="Сообщение" name="message" required></textarea>
+          <button class="btn overflow">отправить</button>
+        </form>
+      </div>
     </section>
 
     <section class="footer-screen">
@@ -263,7 +265,8 @@
           <div class="col-12 col-sm-6 developer-container flex">
             <span class="developer-name overflow">Иванов Иван</span>
             <span class="developer-copyright overflow"
-              >&copy; 2021. Все права защищены.</span>
+              >&copy; 2021. Все права защищены.</span
+            >
           </div>
           <div class="col-12 col-sm-6 vk-logo-container flex">
             <a href="" class="logo-image"
